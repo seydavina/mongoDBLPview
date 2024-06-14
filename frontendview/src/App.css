@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  max-width: 800px;
+}
+
+.list-group-item {
+  background-color: #f8f9fa;
+  margin-bottom: 10px;
+}
+
+.page-link {
+  cursor: pointer;
+}
