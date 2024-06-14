@@ -4,11 +4,10 @@
 ## Usage 
 
 
-the database  could be downloaded from this link [DBLP.json.zip](http://b3d.bdpedia.fr/files/dblp.json.zip)
+La base de données peut être téléchargée à partir de ce lien [DBLP.json.zip](http://b3d.bdpedia.fr/files/dblp.json.zip) que vous décompresserez
 
-Unzip the dblp.json.zip file
 
-Import data into MongoDB with the next command 
+Importez les données de la base dans MongoDB via la commande suivante :
 ``` bash 
 mongoimport --uri "mongodb://localhost:27017/dblp" --collection dblp --type json --file path/to/dblp.json --jsonArray
 ```
