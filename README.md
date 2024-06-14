@@ -1,10 +1,11 @@
 # mongoDBLPview
 
+Une petite application qui utilise les données dans le cluster mongodb et permet de visualiser la liste des noms des auteurs dans la base de DBLP.
 
-## Usage 
+## Utilisation 
 
 
-La base de données peut être téléchargée à partir de ce lien [DBLP.json.zip](http://b3d.bdpedia.fr/files/dblp.json.zip) que vous décompresserez
+La base de données peut être téléchargée à partir de ce lien [DBLP.json.zip](http://b3d.bdpedia.fr/files/dblp.json.zip) (à décompresser)
 
 
 Importez les données de la base dans MongoDB via la commande suivante :
